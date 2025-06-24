@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HTML BÁSICO DIO.ME</title>
+</head>
+<body>
+
+  <header>
+    <h1>HTML BÁSICO DIO.ME</h1>
+    <p><small>Conceitos Essenciais Aprendidos sobre o HTML básico.</small></p>
+    <nav>
+      <ul>
+        <li><a href="#conceitos">Conceitos Básicos de HTML</a></li>
+        <li><a href="#estrutura">Estrutura de um Documento HTML</a></li>
+        <li><a href="#tags">Principais Tags HTML</a></li>
+        <li><a href="#referencias">Links de Referências</a></li>
+      </ul>
+    </nav>
+    <hr />
+  </header>
+
+  <main>
+    <section id="conceitos">
+      <h2>Conceitos Básicos de HTML</h2>
+      <p>HTML (<abbr title="HyperText Markup Language">Linguagem de Marcação de Hipertexto</abbr>) é a base para criar páginas web.</p>
+      <p>Ele utiliza <strong>tags</strong> para estruturar o conteúdo, como textos, imagens e links.</p>
+      <p>As tags são delimitadas por &lt; &gt; e geralmente vêm em pares, como <code>&lt;p&gt;</code> e <code>&lt;/p&gt;</code>.</p>
+      <p>Algumas tags são <i>auto-fechamento</i>, mas a maioria possui conteúdo entre abertura e fechamento.</p>
+      <p>Você pode destacar partes do texto usando a tag <mark>mark</mark> para chamar atenção.</p>
+      <hr />
+    </section>
+
+    <section id="estrutura">
+      <h2>Estrutura de um Documento HTML</h2>
+      <p>Um documento HTML básico tem a seguinte estrutura:</p>
+      <ol>
+        <li><strong>&lt;!DOCTYPE html&gt;</strong>: declara que o documento é HTML5.</li>
+        <li><strong>&lt;html&gt;</strong>: elemento raiz da página.</li>
+        <li><strong>&lt;head&gt;</strong>: contém metadados e título.</li>
+        <li><strong>&lt;body&gt;</strong>: onde vai o conteúdo visível.</li>
+      </ol>
+      <p>Dentro do corpo (<code>&lt;body&gt;</code>), você pode usar várias tags para organizar o conteúdo.</p>
+      <p>Por exemplo, os cabeçalhos de <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> indicam níveis de títulos e subtítulos.</p>
+      <p>Também podemos usar listas ordenadas (<ol>) e não ordenadas (<ul>) para organizar itens.</p>
+      <hr />
+    </section>
+
+    <section id="tags">
+      <h2>Principais Tags HTML</h2>
+      <ul>
+        <li><strong>&lt;p&gt;</strong>: parágrafo, para textos.</li>
+        <li><strong>&lt;a&gt;</strong>: link, usado para navegar entre páginas ou seções.</li>
+        <li><strong>&lt;small&gt;</strong>: texto pequeno, geralmente usado para informações secundárias.</li>
+        <li><strong>&lt;u&gt;</strong>: texto sublinhado, útil para destacar.</li>
+        <li><strong>&lt;i&gt;</strong>: texto em itálico, usado para ênfase leve.</li>
+        <li><strong>&lt;strong&gt;</strong>: texto em negrito, para ênfase forte.</li>
+        <li><strong>&lt;mark&gt;</strong>: destaca texto com fundo colorido.</li>
+        <li><strong>&lt;sub&gt;</strong> e <strong>&lt;sup&gt;</strong>: texto subscrito e sobrescrito, para fórmulas e notas.</li>
+        <li><strong>&lt;blockquote&gt;</strong>: citação longa de outras fontes.</li>
+        <li><strong>&lt;del&gt;</strong>: texto deletado, que mostra alterações.</li>
+        <li><strong>&lt;font&gt;</strong>: antiga tag para alterar cor e fonte (obsoleta, mas ainda presente).</li>
+        <li><strong>&lt;abbr&gt;</strong>: abreviações com explicação ao passar o mouse.</li>
+      </ul>
+
+      <p>Exemplo de uso de algumas dessas tags:</p>
+      <p>Este texto tem uma <mark>palavra destacada</mark>, um <u>texto sublinhado</u>, e um termo em <i>itálico</i>. Você pode ver também um <strong>texto em negrito</strong>.</p>
+      <p>H<sub>2</sub>O é a fórmula da água, e E = mc<sup>2</sup> é a famosa fórmula de Einstein.</p>
+      <blockquote cite="https://www.w3schools.com/html/html5_semantic_elements.asp">
+        "O HTML5 trouxe mais semântica e melhor acessibilidade para a web."
+      </blockquote>
+      <p>Um texto <del>deletado</del> indica uma informação removida.</p>
+      <p><font color="red">Esta tag font é obsoleta, mas ainda funciona para mudar a cor do texto.</font></p>
+    </section>
+
+    <aside>
+      <h3>Dica Rápida</h3>
+      <p>Use sempre as tags semânticas para melhorar a organização do seu código e facilitar a vida de buscadores e leitores de tela.</p>
+      <p>Exemplo: use <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;aside&gt;</code> e <code>&lt;footer&gt;</code>.</p>
+    </aside>
+
+    <section id="referencias">
+      <h2>Links de referências</h2>
+      
+      <ul>
+        <li><a href="https://dio.me" target="_blank" rel="noopener noreferrer">http://dio.me</a></li>
+        <li><a href="https://w3c.org" target="_blank" rel="noopener noreferrer">http://w3c.org</a></li>
+      </ul>
+    </section>
+    
+  </main>
+
+  <footer>
+    <hr />
+    <p><small>Natanael Paiva Costa - 2025.</small></p>
+  </footer>
+
+</body>
+</html>
